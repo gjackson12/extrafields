@@ -1,0 +1,7 @@
+
+        [ckan.plugins]
+        example_extrafields=ckanext.extrafields.plugin:ExampleIDatasetFormPlugin
+
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
+    
